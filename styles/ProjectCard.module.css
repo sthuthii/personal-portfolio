@@ -49,3 +49,24 @@
 .viewProjectButton:hover {
   border-bottom-color: var(--color-primary);
 }
+
+/* styles/ProjectCard.module.css (Updated for Role) */
+
+/* ... (rest of card styles) ... */
+
+.projectRole {
+  /* Style for the Role/Metadata line */
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-secondary);
+  opacity: 0.6; /* Muted appearance */
+  margin-bottom: 5px; 
+}
+
+.projectTitle {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* ... (rest of styles) ... */

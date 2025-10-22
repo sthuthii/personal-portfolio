@@ -1,0 +1,24 @@
+/* styles/TechStack.module.css */
+
+.badgeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* Spacing between badges */
+  margin-top: 15px;
+  margin-bottom: 25px; /* Space above the 'View project' link */
+}
+
+.badge {
+  /* Pill shape styling */
+  display: inline-flex;
+  padding: 4px 10px;
+  border-radius: 15px; /* Makes it pill-shaped */
+  
+  /* Color and font styling */
+  background-color: var(--color-border); /* Light grey background */
+  color: var(--color-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}

@@ -1,12 +1,15 @@
 /* styles/Page.module.css */
 
 .section {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .sectionTitle {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+  font-size: 3rem; 
+  font-weight: 800;
+  margin-bottom: 40px;
+  /* Use a subtle letter-spacing for large titles */
+  letter-spacing: -0.5px;
 }
 
 .projectsGrid {

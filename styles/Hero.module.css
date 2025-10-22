@@ -4,21 +4,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 0 60px 0;
+  padding: 100px 0 80px 0;
 }
 
 .textColumn {
   flex: 1;
-  max-width: 60%;
+  max-width: 65%;
 }
 
 .title {
-  font-size: 3.5rem;
   margin-bottom: 0.5rem;
+  font-size: 4.5rem; /* Make it dominate the header */
+  font-weight: 700; /* Use a strong weight */
+  font-family: var(--font-serif-accent); 
+  margin-bottom: 0.75rem;
 }
 
 .subtitle {
-  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  font-size: 1.35rem; 
   color: var(--color-secondary);
   margin-bottom: 2rem;
 }

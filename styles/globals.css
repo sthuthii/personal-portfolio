@@ -1,0 +1,42 @@
+/* styles/globals.css (UPDATED) */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #333333;
+  --color-background: #ffffff;
+  --color-border: #e0e0e0;
+  
+  /* 💡 NEW: Define the Serif font for accent */
+  --font-serif-accent: "Lora", Georgia, serif; 
+  /* Retain the clean Sans-Serif font for readability */
+  --font-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  --spacing-unit: 8px;
+}
+
+body {
+  /* Apply Sans-Serif as the default */
+  font-family: var(--font-sans-serif); 
+  color: var(--color-primary);
+  background-color: var(--color-background);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: var(--spacing-unit) * 2;
+  /* H2 and H3 will still use the bold Sans-Serif for component titles */
+  font-family: var(--font-sans-serif); 
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
