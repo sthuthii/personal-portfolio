@@ -1,0 +1,58 @@
+/* styles/Hero.module.css */
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0 60px 0;
+}
+
+.textColumn {
+  flex: 1;
+  max-width: 60%;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.ctaButton:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+.illustrationColumn {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.illustrationBox {
+  width: 200px;
+  height: 200px;
+  background-color: var(--color-border);
+  border: 2px solid var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  /* Simulating the retro monitor shape if desired */
+  border-radius: 5px; 
+}
